@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة المستثمر</title>
+  <link rel="stylesheet" href="../css/lamainvestor.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body dir="rtl">
+	<a href="javascript:history.back()" class="back-arrow">
+		<span class="arrow-icon">←</span>
+	      </a>
+  <div class="profile-container">
+	<div id="profile">
+    <div class="profile-picture">
+	<img src="../media/userimg2.png">
+    </div>
+    <div class="profile-details">
+      <h1 class="name">لمى الداود </h1>
+      <p class="investor-type">عملات رقمية</p>
+    </div>
+	</div>
+    <div class="investments">
+	<div class="investment-box-pair">
+	  <div class="investment-box">
+	    <h2>الخبرات</h2>
+	    <ul>
+	      <li>بروفيسورة استثمار جامعة سعود 12 سنة </li>
+	      <li> محللة بياتات شريكة Binance 3 سنوات</li>
+	      <li> مستثمره لشكرة سهامي</li>
+	    </ul>
+	  </div>
+	  <div class="investment-box">
+	    <h2>عدد المستفيدين</h2>
+	    <ul>
+		<br>
+	      <li id="num"> 951 </li>
+	    </ul>
+	  </div>
+	</div>
+	<div class="investment-box-pair">
+	  <div class="investment-box">
+	    <h2>اجابيات</h2>
+	    <ul>
+	      <li> امكانية صرف العملات بسهولة</li>
+	      <li> الصيانة المستدامة</li>
+	      <li> محمية من التضخم</li>
+	    </ul>
+	  </div>
+	  <div class="investment-box">
+	    <h2>مخاطر</h2>
+	    <ul>
+	      <li> فقد البينات قد يسبب خسارة مالية ضخمة</li>
+	      <li> قد تخصر قيمة العملة بسرعة </li>
+	    </ul>
+	  </div>
+	</div>
+        </div>
+  </div>
+
+  <div id="stockButtons"></div>
+  <div id="chart-section">
+	
+  <div class="chart">
+	<canvas id="stockChart"></canvas>
+	
+</div>
+<div id="stocks" dir="rtl">
+	<h2>الارباح</h2>
+	<br>
+	<br>
+	<ul >
+		<li>AQUA:<span>1.5%</span></li>
+		<li>STC: <span>15.36%</span></li>
+		<li>TSLA: <span>23.4%</span></li>
+		<li>NVDA: <span>101.8%</span></li>
+		<li>ASML: <span>6.06%</span></li>
+		<li>APPL: <span>22.93%</span></li>
+	</ul>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <section id="contact">
+	<div class="card">
+		<div class="chat-header">تواصل</div>
+		<div class="chat-window">
+		  <ul class="message-list" id="message-list"></ul>
+		</div>
+		<div class="chat-input">
+		  <input type="text" class="message-input" placeholder="اكتب رسالتيك">
+		  <button class="send-button" onclick="sendMessage()">ارسال</button>
+		</div>
+	        </div>
+	        
+		<div class="appointment-scheduler">
+			<h2>جدولة موعد</h2>
+			<p>الرجاء اختيار تاريخ ووقت لموعدك:</p>
+			
+			<div class="calendar">
+				<input type="date" id="appointment-date" required>
+				<input type="time" id="appointment-time" required>
+			        </div>
+			        <button id="schedule-appointment">Schedule</button>
+		        </div>
+		        </div>
+  </section>
+ 
+
+<script src="../js/lamainvestor.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>

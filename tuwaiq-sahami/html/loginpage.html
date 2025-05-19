@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="../css/loginpage.css">
+</head>
+<body dir="rtl">
+          <a href="javascript:history.back()" class="back-arrow">
+		<span class="arrow-icon">←</span>
+	      </a>
+                    <div class="login">
+                              <form name='form-login'>
+                          
+                                  <h1>تسجيل  دخول</h1>
+                          
+                                  <label for="userName">البريد الألكتروني</label>
+                                  <input type="email" id="userName" placeholder="Username" required>
+                          
+                                  <label for="userPw">كلمة المرور</label>
+                                  <input type="password" id= "userPw" placeholder="Password" required>
+                          
+                                  <div id="remember">
+                                      <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                                             style="display: inline-block;">
+                                      <label>تذكرني</label>
+                                  </div>
+                          
+                                  <input id= "login_btn" type="submit" value="سجل الأن" onclick="check()">
+                          
+                              </form>
+                          </div>
+                          
+                <script src="../js/loginpage.js"></script>
+                <script src="../js/signin.js"></script>
+
+</body>
+</html>

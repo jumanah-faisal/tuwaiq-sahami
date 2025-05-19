@@ -1,0 +1,153 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: right;
+	direction: rtl;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+        }
+        
+        .profile-container {
+	display: flex;
+	margin: 20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	justify-content: space-between;
+        }
+        #profile{
+	display: column;
+	flex-direction: column;
+        }
+        
+        .profile-picture {
+	width: 210px;
+	height: 210px;
+	background-color: #ccc;
+	border-radius: 50%;
+	margin-right: 80px;
+	margin-top: 10%;
+        }
+        
+        .profile-details {
+	flex: 1;
+        }
+        
+        .name {
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+	border: 2px purple solid;
+	margin-right: 30%;
+	margin-top: 10%;
+	text-align: center;
+        }
+        
+        .investor-type {
+	margin: 0;
+	font-size: 18px;
+	color: #666;
+	border: 2px red solid;
+	margin-right: 30%;
+	margin-top: 2%;
+	text-align: center;
+
+        }
+        
+
+.investments {
+	display: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px;
+	border: 2px red solid;
+	height: 50vh;
+	width: 50vw;
+        }
+        
+        .investment-box-pair {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	border: 2px pink dashed;
+        }
+        
+       .investment-box{
+	border: 2px blue groove;
+	padding: 5px;
+	display: column;
+	text-align: center;
+       }
+        
+        
+        
+        .investment-box h2 {
+	margin: 0;
+	font-size: 18px;
+	color: #333;
+        }
+        
+        .investment-box ul {
+	list-style: none;
+	padding: 0;
+        }
+        
+        .investment-box li {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #555;
+        }
+        
+        .chart {
+	margin: 20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	width: calc(50%);
+        }
+        #chart-section{
+	border: 2px rgb(0, 0, 0) dotted;
+	width: 97%;
+	margin: 0;
+	margin-right: 17px;
+	display: flex;
+	justify-content: space-evenly;
+	border-radius: 10px;
+
+	
+        }
+        #stocks{
+	height: 63vh;
+	margin: 20px;
+	background-color: #ffffff;
+	width: 30%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border: 2px yellow solid;
+	margin-top: 5px;
+        }
+        .chart{
+	border: 2px blue solid;
+	margin-top: 5px;
+        }
+        
+        #stockButtons{
+	border: red 2px solid;
+	height: 20%;
+	width:50%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-right: 85px;
+	margin-bottom: 0;
+
+        }
+        #contact{
+	height: 50vh;
+	border: 2px purple dotted;
+	width: 97%;
+	margin-right: 17px;
+	border-radius: 10px;
+	margin-top: 35px;
+        }

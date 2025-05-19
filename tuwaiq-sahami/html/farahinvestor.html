@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة المستثمر</title>
+  <link rel="stylesheet" href="../css/farahinvestor.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+          <a href="javascript:history.back()" class="back-arrow">
+		<span class="arrow-icon">←</span>
+	      </a>
+  <div class="profile-container">
+	<div id="profile">
+    <div class="profile-picture">
+    </div>
+    <div class="profile-details">
+      <h1 class="name">اسم المستثمر</h1>
+      <p class="investor-type">نوع المستثمر</p>
+    </div>
+	</div>
+    <div class="investments">
+	<div class="investment-box-pair">
+	  <div class="investment-box">
+	    <h2>الخبرات</h2>
+	    <ul>
+	      <li>الخبرات 1</li>
+	      <li>الخبرات 2</li>
+	      <li>الخبرات 3</li>
+	    </ul>
+	  </div>
+	  <div class="investment-box">
+	    <h2>عدد المستفيدين</h2>
+	    <ul>
+	      <li> عدد المستفيدين</li>
+	    </ul>
+	  </div>
+	</div>
+	<div class="investment-box-pair">
+	  <div class="investment-box">
+	    <h2>اجابيات</h2>
+	    <ul>
+	      <li>اجابيات 1</li>
+	      <li>اجابيات 2</li>
+	      <li>اجابيات 3</li>
+	    </ul>
+	  </div>
+	  <div class="investment-box">
+	    <h2>مخاطر</h2>
+	    <ul>
+	      <li>مخاطرة 1</li>
+	      <li>مخاطرة 2</li>
+	      <li>مخاطرة 3</li>
+	    </ul>
+	  </div>
+	</div>
+        </div>
+  </div>
+
+  <div id="stockButtons"></div>
+  <div id="chart-section">
+	
+  <div class="chart">
+	<canvas id="stockChart"></canvas>
+	
+</div>
+<div id="stocks">
+	<div id="earningsBox"></div>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <section id="contact">
+	<div id="chat">
+		<div id="messages"></div>
+		<input type="text" id="message" placeholder="Type a message...">
+		<button id="send">Send</button>
+	      </div>
+
+  </section>
+
+<script src="../js/farahinvestor.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>
